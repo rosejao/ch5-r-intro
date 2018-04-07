@@ -7,13 +7,13 @@ hometown <- "Pullman"
 my_name <- "Rose"
 
 # Assign your height (in inches) to a variable `my_height`
-my_height <- "63"
+my_height <- 63
 
 # Create a variable `puppies` equal to the number of puppies you'd like to have
-puppies <- "3"
+puppies <- 3
 
 # Create a variable `puppy_price`, which is how much you think a puppy costs
-puppy_price <- "200"
+puppy_price <- 200
 
 # Create a variable `total_cost` that has the total cost of all of your puppies
 total_cost <- puppies * puppy_price
@@ -25,3 +25,15 @@ total_cost <- total_cost > 1000
 # Create a variable `max_puppies`, which is the number of puppies you can 
 # afford for $1,000
 max_puppies <- floor(1000/puppy_price)
+
+add_numbers <- function(a,b) {
+  a + b
+}
+add_numbers (100, 300)
+
+add_numbers <- function(first_number, second_number) {
+  print(paste("The first number is", first_number))
+  first_number + second_number
+}
+add_numbers (140, 50)
+result
